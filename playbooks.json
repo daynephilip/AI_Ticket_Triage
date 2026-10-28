@@ -1,0 +1,23 @@
+[
+  {
+    "id": "wifi_single_device",
+    "title": "Wi-Fi not connecting (one device)",
+    "when": "One device cannot connect to Wi-Fi or has no internet while others work",
+    "auto_send": true,
+    "steps": "1. Turn Wi-Fi off, wait 10 seconds, and turn it back on.\n2. Restart the device.\n3. Forget the Wi-Fi network in settings, then reconnect and re-enter the password.\n4. Check whether other devices on the same network have internet.\n5. Try moving closer to the router or access point."
+  },
+  {
+    "id": "printer_offline",
+    "title": "Printer shows offline",
+    "when": "A printer shows as offline or will not print",
+    "auto_send": true,
+    "steps": "1. Check the printer is powered on and shows no error lights or messages.\n2. Make sure the printer is on the same network as the computer.\n3. Restart the printer, wait for it to be ready, then try printing again.\n4. Remove the printer from the computer's printer list and add it again.\n5. Clear the print queue and print a test page."
+  },
+  {
+    "id": "outlook_not_syncing",
+    "title": "Outlook not syncing email",
+    "when": "Outlook or email app is not sending, receiving, or updating mail",
+    "auto_send": false,
+    "steps": "1. Check the internet connection by opening any website.\n2. Make sure Outlook is not in Offline mode.\n3. Close and reopen Outlook.\n4. Restart the computer.\n5. Check that the mailbox is not full."
+  }
+]
